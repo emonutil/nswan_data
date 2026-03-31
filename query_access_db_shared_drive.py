@@ -87,7 +87,7 @@ def send_email(message):
         result = True
 
     except Exception as e:
-        logging.error(f'Failed to send email: {e}')
+        logger.error(f'Failed to send email: {e}')
         result = False
 
     return result
