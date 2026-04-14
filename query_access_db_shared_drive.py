@@ -28,7 +28,7 @@ password = config['SVC_ACCT_PASS']  # Windows password
 # Path to Access .mdb or .accdb file on mounted share
 access_db_path = config['DB_PATH']
 
-tables = ['Circuits', 'Hardware', 'Ports', 'Service']
+tables = ['Circuits', 'Hardware', 'Ports', 'Service', 'PORTSPreposed']
 
 
 def send_email(message):
